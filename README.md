@@ -58,9 +58,6 @@ Dự án ứng dụng học máy để dự đoán kết quả học tập của
 ```
 .
 ├── README.md
-├── manuscript_IMRaD_OULAD.docx     # Bản thảo IMRaD (cả 4 dataset, ~23 trang)
-├── cover_letter.docx               # Thư giới thiệu, 5 điểm tính mới
-├── slides_presentation.pptx        # Slides (17 trang)
 ├── code_oulad/                     # Pipeline chính (OULAD)
 │   ├── 01_preprocess.py ... 05_extra_charts.py
 ├── code_dropout2021/               # Đối chứng #1 (Bồ Đào Nha)
