@@ -105,20 +105,7 @@ cd code_xapi/ && python3 train_xapi.py
 
 ---
 
-## 4. Hạn chế đã biết
-1. Nhóm "Withdrawn" (OULAD) chưa đưa vào bài toán phân loại chính.
-2. Đặc trưng ở dạng tổng hợp tĩnh, chưa mô hình hóa chuỗi thời gian (hướng mở rộng: LSTM/GRU).
-3. Bốn dataset bao phủ Anh/Bồ Đào Nha/Bắc Mỹ/Trung Đông nhưng đều là giáo dục chính quy; MOOC quy mô lớn và Đông Á/Đông Nam Á cần kiểm chứng thêm.
-4. Cấu trúc mốc thời gian và quy mô mẫu khác nhau đáng kể (480 đến 32.593) — so sánh định lượng trực tiếp cần thận trọng, mang tính xu hướng.
-5. Dataset Bắc Mỹ mất cân bằng cực đoan (8/486 mẫu Weak) → ước lượng AUC có độ biến thiên cao.
-
-## 5. Việc cần hoàn thiện trước khi nộp
-- [ ] Đọc & xác nhận nội dung tài liệu tham khảo [1]-[10]
-- [ ] Điền thông tin học viên/GVHD vào cover letter & slide tiêu đề/kết thúc
-- [ ] Kiểm tra đạo văn (Turnitin, DoIT...)
-- [ ] Định dạng theo template tạp chí/hội thảo đích
-
-## 6. Nguồn dữ liệu & Trích dẫn
+## 4. Nguồn dữ liệu & Trích dẫn
 1. Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University Learning Analytics dataset. *Scientific Data*, 4, 170171. https://doi.org/10.1038/sdata.2017.171
 2. Realinho, V., et al. (2021). Predict Students' Dropout and Academic Success. UCI ML Repository. https://doi.org/10.24432/C5MC89
 3. Injadat, M., et al. (2020). Multi-split optimized bagging ensemble model selection for multi-class educational data mining. *Applied Intelligence*, 50, 4506–4528. https://doi.org/10.1007/s10489-020-01776-3
